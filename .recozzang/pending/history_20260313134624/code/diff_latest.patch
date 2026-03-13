@@ -1,0 +1,1482 @@
+diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+new file mode 100644
+index 0000000..628fd08
+--- /dev/null
++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+@@ -0,0 +1,23 @@
++# Chat History
++
++<|im_start|>user
++[Task]
++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++<|im_end|>
++
++<|im_start|>assistant
++[Reasoning]
++**Analyzing User Input**
++
++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
++<|im_end|>
++
++<|im_start|>assistant
++[Plan Response]
++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
++
++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
++
++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
++<|im_end|>
++
+diff --git a/.recozzang/pending/history_20260313134152/code/diff_latest.patch b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
+new file mode 100644
+index 0000000..5326378
+--- /dev/null
++++ b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
+@@ -0,0 +1,283 @@
++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++new file mode 100644
++index 0000000..628fd08
++--- /dev/null
+++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++@@ -0,0 +1,23 @@
+++# Chat History
+++
+++<|im_start|>user
+++[Task]
+++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Reasoning]
+++**Analyzing User Input**
+++
+++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Plan Response]
+++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
+++
+++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
+++
+++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
+++<|im_end|>
+++
++diff --git a/.recozzang/pending/history_20260313134152/code/diff_latest.patch b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
++new file mode 100644
++index 0000000..198181d
++--- /dev/null
+++++ b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
++@@ -0,0 +1,130 @@
+++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++new file mode 100644
+++index 0000000..6719593
+++--- /dev/null
++++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++@@ -0,0 +1,7 @@
++++# Chat History
++++
++++<|im_start|>user
++++[Task]
++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++++<|im_end|>
++++
+++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
+++new file mode 100644
+++index 0000000..57f62a7
+++--- /dev/null
++++++ b/app_tracking_guide.md
+++@@ -0,0 +1,111 @@
++++# macOS 앱 사용 기록 파악 가이드
++++
++++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
++++
++++## 1. 사용 중인 앱 파악 방법
++++
++++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
++++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
++++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
++++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
++++
++++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
++++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
++++
++++**실행 명령어:**
++++```bash
++++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++```
++++
++++## 2. 결과 해석 예시
++++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
++++    *   **앱 이름**: Visual Studio Code
++++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
++++
++++## 3. 리소스 사용량 분석 (성능)
++++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
++++
++++| 리소스 | 사용량 및 영향 | 비고 |
++++| :--- | :--- | :--- |
++++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
++++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
++++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
++++
++++## 4. 실시간 모니터링 스크립트
++++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
++++
++++```bash
++++while true; do
++++  echo "--- $(date +%H:%M:%S) ---"
++++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++  sleep 5
++++done
++++```
++++
++++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
++++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
++++
++++### 5.1. JSON 형식으로 저장하기
++++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
++++
++++```bash
++++LOG_FILE="app_usage_log.json"
++++
++++while true; do
++++  # AppleScript 결과 추출
++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++  
++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++
++++  # JSON 객체 생성 및 파일 저장
++++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
++++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
++++  
++++  sleep 5
++++done
++++```
++++
++++### 5.2. YAML 형식으로 저장하기
++++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
++++
++++```bash
++++LOG_FILE="app_usage_log.yaml"
++++
++++while true; do
++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++  
++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++
++++  {
++++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
++++    echo "  app: \"$APP_NAME\""
++++    echo "  title: \"$WINDOW_TITLE\""
++++  } >> "$LOG_FILE"
++++  
++++  sleep 5
++++done
++++```
++++
++++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
++++
++++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
++++
++++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
++++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
++++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
++++
++++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
++++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
++++
++++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
++++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
++++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
++++
++++---
++++*작성일: 2026. 3. 11.*
++\ No newline at end of file
++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
++new file mode 100644
++index 0000000..57f62a7
++--- /dev/null
+++++ b/app_tracking_guide.md
++@@ -0,0 +1,111 @@
+++# macOS 앱 사용 기록 파악 가이드
+++
+++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
+++
+++## 1. 사용 중인 앱 파악 방법
+++
+++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
+++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
+++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
+++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
+++
+++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
+++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
+++
+++**실행 명령어:**
+++```bash
+++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++```
+++
+++## 2. 결과 해석 예시
+++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
+++    *   **앱 이름**: Visual Studio Code
+++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
+++
+++## 3. 리소스 사용량 분석 (성능)
+++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
+++
+++| 리소스 | 사용량 및 영향 | 비고 |
+++| :--- | :--- | :--- |
+++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
+++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
+++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
+++
+++## 4. 실시간 모니터링 스크립트
+++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
+++
+++```bash
+++while true; do
+++  echo "--- $(date +%H:%M:%S) ---"
+++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++  sleep 5
+++done
+++```
+++
+++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
+++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
+++
+++### 5.1. JSON 형식으로 저장하기
+++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
+++
+++```bash
+++LOG_FILE="app_usage_log.json"
+++
+++while true; do
+++  # AppleScript 결과 추출
+++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++  
+++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++
+++  # JSON 객체 생성 및 파일 저장
+++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
+++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
+++  
+++  sleep 5
+++done
+++```
+++
+++### 5.2. YAML 형식으로 저장하기
+++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
+++
+++```bash
+++LOG_FILE="app_usage_log.yaml"
+++
+++while true; do
+++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++  
+++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++
+++  {
+++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
+++    echo "  app: \"$APP_NAME\""
+++    echo "  title: \"$WINDOW_TITLE\""
+++  } >> "$LOG_FILE"
+++  
+++  sleep 5
+++done
+++```
+++
+++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
+++
+++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
+++
+++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
+++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
+++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
+++
+++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
+++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
+++
+++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
+++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
+++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
+++
+++---
+++*작성일: 2026. 3. 11.*
+\ No newline at end of file
+diff --git a/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md
+new file mode 100644
+index 0000000..d99420e
+--- /dev/null
++++ b/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md
+@@ -0,0 +1,74 @@
++# Chat History
++
++<|im_start|>user
++[Task]
++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++<|im_end|>
++
++<|im_start|>assistant
++[Reasoning]
++**Analyzing User Input**
++
++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
++<|im_end|>
++
++<|im_start|>assistant
++[Plan Response]
++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
++
++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
++
++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
++<|im_end|>
++
++<|im_start|>user
++[User Feedback]
++md파일 수정해봐
++<|im_end|>
++
++<|im_start|>assistant
++[Reasoning]
++**Analyzing the Requirement**
++
++I'm now zeroing in on the specifics: modifying an MD file. The "PLAN MODE" is active, which is relevant. I know it's a `.md` file within the project, likely a `README.md`. I'm starting to consider the next logical steps for carrying out the edit.
++<|im_end|>
++
++<|im_start|>assistant
++[Tool Use/Result]
++{"tool":"readFile","path":"README.md","content":"/Users/mufin/project/test/README.md","operationIsLocatedInWorkspace":true}
++<|im_end|>
++
++<|im_start|>assistant
++[Reasoning]
++**Formulating a File Update**
++
++I've examined the `README.md` file's content. Because I am in PLAN MODE, I've outlined a strategy rather than executing directly. Specifically, I'll need to specify the changes and then request that the mode be switched to ACT so that the edits can be performed.
++<|im_end|>
++
++<|im_start|>assistant
++[Plan Response]
++`README.md` 파일을 확인해 보았습니다. 현재 파일 내용은 다음과 같습니다.
++
++```markdown
++prd somethings...
++aasjdhjkashdkjashdkj
++
++# 프로젝트 정보
++본 프로젝트는 테스트를 위한 저장소입니다.
++현재 시스템 상태를 점검하고 있습니다.
++자동화 도구를 사용하여 파일을 관리합니다.
++추가적인 기능 구현이 예정되어 있습니다.
++
++태스트
++```
++
++다음과 같이 수정해 볼 수 있을 것 같습니다:
++1. 상단의 의미 없는 텍스트(`prd somethings...` 등) 제거
++2. 하단의 오타(`태스트` -> `테스트`) 수정
++3. 필요에 따라 내용을 좀 더 체계적으로 다듬기
++
++수정을 진행하려면 제가 실제로 파일을 변경할 수 있는 권한이 필요합니다. 화면 하단이나 설정에 있는 **Plan/Act 토글 버튼을 사용하여 "Act mode"로 전환**해 주시면 바로 수정을 진행하겠습니다! 
++
++특정하게 원하시는 수정 방향이나 추가할 내용이 있다면 말씀해 주세요.
++<|im_end|>
++
+diff --git a/.recozzang/pending/history_20260313134624/code/diff_latest.patch b/.recozzang/pending/history_20260313134624/code/diff_latest.patch
+new file mode 100644
+index 0000000..908e43b
+--- /dev/null
++++ b/.recozzang/pending/history_20260313134624/code/diff_latest.patch
+@@ -0,0 +1,959 @@
++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++new file mode 100644
++index 0000000..628fd08
++--- /dev/null
+++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++@@ -0,0 +1,23 @@
+++# Chat History
+++
+++<|im_start|>user
+++[Task]
+++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Reasoning]
+++**Analyzing User Input**
+++
+++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Plan Response]
+++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
+++
+++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
+++
+++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
+++<|im_end|>
+++
++diff --git a/.recozzang/pending/history_20260313134152/code/diff_latest.patch b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
++new file mode 100644
++index 0000000..5326378
++--- /dev/null
+++++ b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
++@@ -0,0 +1,283 @@
+++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++new file mode 100644
+++index 0000000..628fd08
+++--- /dev/null
++++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++@@ -0,0 +1,23 @@
++++# Chat History
++++
++++<|im_start|>user
++++[Task]
++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++++<|im_end|>
++++
++++<|im_start|>assistant
++++[Reasoning]
++++**Analyzing User Input**
++++
++++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
++++<|im_end|>
++++
++++<|im_start|>assistant
++++[Plan Response]
++++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
++++
++++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
++++
++++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
++++<|im_end|>
++++
+++diff --git a/.recozzang/pending/history_20260313134152/code/diff_latest.patch b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
+++new file mode 100644
+++index 0000000..198181d
+++--- /dev/null
++++++ b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
+++@@ -0,0 +1,130 @@
++++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++++new file mode 100644
++++index 0000000..6719593
++++--- /dev/null
+++++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++++@@ -0,0 +1,7 @@
+++++# Chat History
+++++
+++++<|im_start|>user
+++++[Task]
+++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
+++++<|im_end|>
+++++
++++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
++++new file mode 100644
++++index 0000000..57f62a7
++++--- /dev/null
+++++++ b/app_tracking_guide.md
++++@@ -0,0 +1,111 @@
+++++# macOS 앱 사용 기록 파악 가이드
+++++
+++++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
+++++
+++++## 1. 사용 중인 앱 파악 방법
+++++
+++++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
+++++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
+++++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
+++++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
+++++
+++++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
+++++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
+++++
+++++**실행 명령어:**
+++++```bash
+++++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++++```
+++++
+++++## 2. 결과 해석 예시
+++++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
+++++    *   **앱 이름**: Visual Studio Code
+++++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
+++++
+++++## 3. 리소스 사용량 분석 (성능)
+++++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
+++++
+++++| 리소스 | 사용량 및 영향 | 비고 |
+++++| :--- | :--- | :--- |
+++++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
+++++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
+++++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
+++++
+++++## 4. 실시간 모니터링 스크립트
+++++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
+++++
+++++```bash
+++++while true; do
+++++  echo "--- $(date +%H:%M:%S) ---"
+++++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++++  sleep 5
+++++done
+++++```
+++++
+++++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
+++++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
+++++
+++++### 5.1. JSON 형식으로 저장하기
+++++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
+++++
+++++```bash
+++++LOG_FILE="app_usage_log.json"
+++++
+++++while true; do
+++++  # AppleScript 결과 추출
+++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++++  
+++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++++
+++++  # JSON 객체 생성 및 파일 저장
+++++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
+++++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
+++++  
+++++  sleep 5
+++++done
+++++```
+++++
+++++### 5.2. YAML 형식으로 저장하기
+++++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
+++++
+++++```bash
+++++LOG_FILE="app_usage_log.yaml"
+++++
+++++while true; do
+++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++++  
+++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++++
+++++  {
+++++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
+++++    echo "  app: \"$APP_NAME\""
+++++    echo "  title: \"$WINDOW_TITLE\""
+++++  } >> "$LOG_FILE"
+++++  
+++++  sleep 5
+++++done
+++++```
+++++
+++++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
+++++
+++++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
+++++
+++++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
+++++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
+++++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
+++++
+++++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
+++++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
+++++
+++++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
+++++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
+++++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
+++++
+++++---
+++++*작성일: 2026. 3. 11.*
+++\ No newline at end of file
+++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
+++new file mode 100644
+++index 0000000..57f62a7
+++--- /dev/null
++++++ b/app_tracking_guide.md
+++@@ -0,0 +1,111 @@
++++# macOS 앱 사용 기록 파악 가이드
++++
++++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
++++
++++## 1. 사용 중인 앱 파악 방법
++++
++++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
++++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
++++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
++++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
++++
++++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
++++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
++++
++++**실행 명령어:**
++++```bash
++++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++```
++++
++++## 2. 결과 해석 예시
++++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
++++    *   **앱 이름**: Visual Studio Code
++++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
++++
++++## 3. 리소스 사용량 분석 (성능)
++++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
++++
++++| 리소스 | 사용량 및 영향 | 비고 |
++++| :--- | :--- | :--- |
++++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
++++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
++++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
++++
++++## 4. 실시간 모니터링 스크립트
++++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
++++
++++```bash
++++while true; do
++++  echo "--- $(date +%H:%M:%S) ---"
++++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++  sleep 5
++++done
++++```
++++
++++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
++++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
++++
++++### 5.1. JSON 형식으로 저장하기
++++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
++++
++++```bash
++++LOG_FILE="app_usage_log.json"
++++
++++while true; do
++++  # AppleScript 결과 추출
++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++  
++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++
++++  # JSON 객체 생성 및 파일 저장
++++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
++++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
++++  
++++  sleep 5
++++done
++++```
++++
++++### 5.2. YAML 형식으로 저장하기
++++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
++++
++++```bash
++++LOG_FILE="app_usage_log.yaml"
++++
++++while true; do
++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++  
++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++
++++  {
++++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
++++    echo "  app: \"$APP_NAME\""
++++    echo "  title: \"$WINDOW_TITLE\""
++++  } >> "$LOG_FILE"
++++  
++++  sleep 5
++++done
++++```
++++
++++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
++++
++++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
++++
++++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
++++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
++++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
++++
++++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
++++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
++++
++++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
++++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
++++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
++++
++++---
++++*작성일: 2026. 3. 11.*
++\ No newline at end of file
++diff --git a/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md
++new file mode 100644
++index 0000000..d2254ec
++--- /dev/null
+++++ b/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md
++@@ -0,0 +1,40 @@
+++# Chat History
+++
+++<|im_start|>user
+++[Task]
+++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Reasoning]
+++**Analyzing User Input**
+++
+++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Plan Response]
+++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
+++
+++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
+++
+++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
+++<|im_end|>
+++
+++<|im_start|>user
+++[User Feedback]
+++md파일 수정해봐
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Reasoning]
+++**Analyzing the Requirement**
+++
+++I'm now zeroing in on the specifics: modifying an MD file. The "PLAN MODE" is active, which is relevant. I know it's a `.md` file within the project, likely a `README.md`. I'm starting to consider the next logical steps for carrying out the edit.
+++<|im_end|>
+++
+++<|im_start|>assistant
+++[Tool Use/Result]
+++{"tool":"readFile","path":"README.md","content":"/Users/mufin/project/test/README.md","operationIsLocatedInWorkspace":true}
+++<|im_end|>
+++
++diff --git a/.recozzang/pending/history_20260313134624/code/diff_latest.patch b/.recozzang/pending/history_20260313134624/code/diff_latest.patch
++new file mode 100644
++index 0000000..7c480de
++--- /dev/null
+++++ b/.recozzang/pending/history_20260313134624/code/diff_latest.patch
++@@ -0,0 +1,470 @@
+++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++new file mode 100644
+++index 0000000..628fd08
+++--- /dev/null
++++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++@@ -0,0 +1,23 @@
++++# Chat History
++++
++++<|im_start|>user
++++[Task]
++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++++<|im_end|>
++++
++++<|im_start|>assistant
++++[Reasoning]
++++**Analyzing User Input**
++++
++++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
++++<|im_end|>
++++
++++<|im_start|>assistant
++++[Plan Response]
++++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
++++
++++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
++++
++++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
++++<|im_end|>
++++
+++diff --git a/.recozzang/pending/history_20260313134152/code/diff_latest.patch b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
+++new file mode 100644
+++index 0000000..5326378
+++--- /dev/null
++++++ b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
+++@@ -0,0 +1,283 @@
++++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++++new file mode 100644
++++index 0000000..628fd08
++++--- /dev/null
+++++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
++++@@ -0,0 +1,23 @@
+++++# Chat History
+++++
+++++<|im_start|>user
+++++[Task]
+++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
+++++<|im_end|>
+++++
+++++<|im_start|>assistant
+++++[Reasoning]
+++++**Analyzing User Input**
+++++
+++++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
+++++<|im_end|>
+++++
+++++<|im_start|>assistant
+++++[Plan Response]
+++++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
+++++
+++++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
+++++
+++++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
+++++<|im_end|>
+++++
++++diff --git a/.recozzang/pending/history_20260313134152/code/diff_latest.patch b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
++++new file mode 100644
++++index 0000000..198181d
++++--- /dev/null
+++++++ b/.recozzang/pending/history_20260313134152/code/diff_latest.patch
++++@@ -0,0 +1,130 @@
+++++diff --git a/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++++new file mode 100644
+++++index 0000000..6719593
+++++--- /dev/null
++++++++ b/.recozzang/pending/history_20260313134152/chat/chat_history_1773377070690.md
+++++@@ -0,0 +1,7 @@
++++++# Chat History
++++++
++++++<|im_start|>user
++++++[Task]
++++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++++++<|im_end|>
++++++
+++++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
+++++new file mode 100644
+++++index 0000000..57f62a7
+++++--- /dev/null
++++++++ b/app_tracking_guide.md
+++++@@ -0,0 +1,111 @@
++++++# macOS 앱 사용 기록 파악 가이드
++++++
++++++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
++++++
++++++## 1. 사용 중인 앱 파악 방법
++++++
++++++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
++++++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
++++++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
++++++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
++++++
++++++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
++++++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
++++++
++++++**실행 명령어:**
++++++```bash
++++++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++++```
++++++
++++++## 2. 결과 해석 예시
++++++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
++++++    *   **앱 이름**: Visual Studio Code
++++++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
++++++
++++++## 3. 리소스 사용량 분석 (성능)
++++++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
++++++
++++++| 리소스 | 사용량 및 영향 | 비고 |
++++++| :--- | :--- | :--- |
++++++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
++++++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
++++++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
++++++
++++++## 4. 실시간 모니터링 스크립트
++++++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
++++++
++++++```bash
++++++while true; do
++++++  echo "--- $(date +%H:%M:%S) ---"
++++++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++++  sleep 5
++++++done
++++++```
++++++
++++++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
++++++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
++++++
++++++### 5.1. JSON 형식으로 저장하기
++++++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
++++++
++++++```bash
++++++LOG_FILE="app_usage_log.json"
++++++
++++++while true; do
++++++  # AppleScript 결과 추출
++++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++++  
++++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++++
++++++  # JSON 객체 생성 및 파일 저장
++++++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
++++++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
++++++  
++++++  sleep 5
++++++done
++++++```
++++++
++++++### 5.2. YAML 형식으로 저장하기
++++++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
++++++
++++++```bash
++++++LOG_FILE="app_usage_log.yaml"
++++++
++++++while true; do
++++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++++  
++++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++++
++++++  {
++++++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
++++++    echo "  app: \"$APP_NAME\""
++++++    echo "  title: \"$WINDOW_TITLE\""
++++++  } >> "$LOG_FILE"
++++++  
++++++  sleep 5
++++++done
++++++```
++++++
++++++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
++++++
++++++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
++++++
++++++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
++++++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
++++++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
++++++
++++++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
++++++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
++++++
++++++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
++++++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
++++++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
++++++
++++++---
++++++*작성일: 2026. 3. 11.*
++++\ No newline at end of file
++++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
++++new file mode 100644
++++index 0000000..57f62a7
++++--- /dev/null
+++++++ b/app_tracking_guide.md
++++@@ -0,0 +1,111 @@
+++++# macOS 앱 사용 기록 파악 가이드
+++++
+++++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
+++++
+++++## 1. 사용 중인 앱 파악 방법
+++++
+++++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
+++++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
+++++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
+++++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
+++++
+++++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
+++++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
+++++
+++++**실행 명령어:**
+++++```bash
+++++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++++```
+++++
+++++## 2. 결과 해석 예시
+++++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
+++++    *   **앱 이름**: Visual Studio Code
+++++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
+++++
+++++## 3. 리소스 사용량 분석 (성능)
+++++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
+++++
+++++| 리소스 | 사용량 및 영향 | 비고 |
+++++| :--- | :--- | :--- |
+++++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
+++++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
+++++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
+++++
+++++## 4. 실시간 모니터링 스크립트
+++++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
+++++
+++++```bash
+++++while true; do
+++++  echo "--- $(date +%H:%M:%S) ---"
+++++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++++  sleep 5
+++++done
+++++```
+++++
+++++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
+++++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
+++++
+++++### 5.1. JSON 형식으로 저장하기
+++++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
+++++
+++++```bash
+++++LOG_FILE="app_usage_log.json"
+++++
+++++while true; do
+++++  # AppleScript 결과 추출
+++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++++  
+++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++++
+++++  # JSON 객체 생성 및 파일 저장
+++++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
+++++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
+++++  
+++++  sleep 5
+++++done
+++++```
+++++
+++++### 5.2. YAML 형식으로 저장하기
+++++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
+++++
+++++```bash
+++++LOG_FILE="app_usage_log.yaml"
+++++
+++++while true; do
+++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++++  
+++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++++
+++++  {
+++++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
+++++    echo "  app: \"$APP_NAME\""
+++++    echo "  title: \"$WINDOW_TITLE\""
+++++  } >> "$LOG_FILE"
+++++  
+++++  sleep 5
+++++done
+++++```
+++++
+++++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
+++++
+++++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
+++++
+++++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
+++++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
+++++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
+++++
+++++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
+++++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
+++++
+++++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
+++++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
+++++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
+++++
+++++---
+++++*작성일: 2026. 3. 11.*
+++\ No newline at end of file
+++diff --git a/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md b/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md
+++new file mode 100644
+++index 0000000..3395a87
+++--- /dev/null
++++++ b/.recozzang/pending/history_20260313134624/chat/chat_history_1773377070690.md
+++@@ -0,0 +1,28 @@
++++# Chat History
++++
++++<|im_start|>user
++++[Task]
++++xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk
++++<|im_end|>
++++
++++<|im_start|>assistant
++++[Reasoning]
++++**Analyzing User Input**
++++
++++I've begun analyzing the user's input, specifically "xotmxmfmf godigksmsep dkan dldirlsk whagoqhwk." I'm translating it from Korean to English. So far, "xotmxmfmf" translates to "테스트를," meaning "to test," "godigksmsep" translates to "해야하는데," meaning "should do," "dkan" translates to "아무," meaning "any," and "dldirlsk" translates to "이야기나," meaning "story or talk." I'm still figuring out the rest.
++++<|im_end|>
++++
++++<|im_start|>assistant
++++[Plan Response]
++++네, 테스트를 진행 중이시군요! 어떤 종류의 테스트를 하고 계신지 궁금하네요.
++++
++++현재 작업 공간을 보니 `app_tracking_guide.md` 파일이나 `.recozzang` 관련 파일들이 있는 것으로 보아, 앱 트래킹 가이드나 문서 자동화, 혹은 Notion 연동 같은 작업을 하시는 것 같기도 합니다.
++++
++++날씨도 점점 풀리고 있는데, 오늘 하루 작업은 잘 진행되고 있으신가요? 테스트하시면서 궁금한 점이나 제가 도와드릴 만한 기능(파일 읽기, 스크립트 실행, Notion API 연동 등)이 있다면 언제든 편하게 말씀해 주세요! 아무 이야기나 좋으니 편하게 테스트해 보세요. 😊
++++<|im_end|>
++++
++++<|im_start|>user
++++[User Feedback]
++++md파일 수정해봐
++++<|im_end|>
++++
+++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
+++new file mode 100644
+++index 0000000..57f62a7
+++--- /dev/null
++++++ b/app_tracking_guide.md
+++@@ -0,0 +1,111 @@
++++# macOS 앱 사용 기록 파악 가이드
++++
++++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
++++
++++## 1. 사용 중인 앱 파악 방법
++++
++++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
++++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
++++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
++++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
++++
++++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
++++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
++++
++++**실행 명령어:**
++++```bash
++++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++```
++++
++++## 2. 결과 해석 예시
++++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
++++    *   **앱 이름**: Visual Studio Code
++++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
++++
++++## 3. 리소스 사용량 분석 (성능)
++++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
++++
++++| 리소스 | 사용량 및 영향 | 비고 |
++++| :--- | :--- | :--- |
++++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
++++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
++++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
++++
++++## 4. 실시간 모니터링 스크립트
++++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
++++
++++```bash
++++while true; do
++++  echo "--- $(date +%H:%M:%S) ---"
++++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
++++  sleep 5
++++done
++++```
++++
++++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
++++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
++++
++++### 5.1. JSON 형식으로 저장하기
++++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
++++
++++```bash
++++LOG_FILE="app_usage_log.json"
++++
++++while true; do
++++  # AppleScript 결과 추출
++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++  
++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++
++++  # JSON 객체 생성 및 파일 저장
++++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
++++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
++++  
++++  sleep 5
++++done
++++```
++++
++++### 5.2. YAML 형식으로 저장하기
++++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
++++
++++```bash
++++LOG_FILE="app_usage_log.yaml"
++++
++++while true; do
++++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++++  
++++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++++
++++  {
++++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
++++    echo "  app: \"$APP_NAME\""
++++    echo "  title: \"$WINDOW_TITLE\""
++++  } >> "$LOG_FILE"
++++  
++++  sleep 5
++++done
++++```
++++
++++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
++++
++++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
++++
++++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
++++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
++++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
++++
++++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
++++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
++++
++++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
++++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
++++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
++++
++++---
++++*작성일: 2026. 3. 11.*
++\ No newline at end of file
++diff --git a/app_tracking_guide.md b/app_tracking_guide.md
++new file mode 100644
++index 0000000..57f62a7
++--- /dev/null
+++++ b/app_tracking_guide.md
++@@ -0,0 +1,111 @@
+++# macOS 앱 사용 기록 파악 가이드
+++
+++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
+++
+++## 1. 사용 중인 앱 파악 방법
+++
+++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
+++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
+++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
+++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
+++
+++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
+++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
+++
+++**실행 명령어:**
+++```bash
+++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++```
+++
+++## 2. 결과 해석 예시
+++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
+++    *   **앱 이름**: Visual Studio Code
+++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
+++
+++## 3. 리소스 사용량 분석 (성능)
+++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
+++
+++| 리소스 | 사용량 및 영향 | 비고 |
+++| :--- | :--- | :--- |
+++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
+++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
+++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
+++
+++## 4. 실시간 모니터링 스크립트
+++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
+++
+++```bash
+++while true; do
+++  echo "--- $(date +%H:%M:%S) ---"
+++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
+++  sleep 5
+++done
+++```
+++
+++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
+++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
+++
+++### 5.1. JSON 형식으로 저장하기
+++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
+++
+++```bash
+++LOG_FILE="app_usage_log.json"
+++
+++while true; do
+++  # AppleScript 결과 추출
+++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++  
+++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++
+++  # JSON 객체 생성 및 파일 저장
+++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
+++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
+++  
+++  sleep 5
+++done
+++```
+++
+++### 5.2. YAML 형식으로 저장하기
+++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
+++
+++```bash
+++LOG_FILE="app_usage_log.yaml"
+++
+++while true; do
+++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
+++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
+++  
+++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
+++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
+++
+++  {
+++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
+++    echo "  app: \"$APP_NAME\""
+++    echo "  title: \"$WINDOW_TITLE\""
+++  } >> "$LOG_FILE"
+++  
+++  sleep 5
+++done
+++```
+++
+++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
+++
+++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
+++
+++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
+++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
+++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
+++
+++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
+++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
+++
+++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
+++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
+++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
+++
+++---
+++*작성일: 2026. 3. 11.*
+\ No newline at end of file
+diff --git a/app_tracking_guide.md b/app_tracking_guide.md
+new file mode 100644
+index 0000000..57f62a7
+--- /dev/null
++++ b/app_tracking_guide.md
+@@ -0,0 +1,111 @@
++# macOS 앱 사용 기록 파악 가이드
++
++이 문서는 `ps aux` 명령어와 `AppleScript`를 사용하여 macOS에서 현재 사용 중인 앱 정보를 파악하는 방법과 그 효율성에 대해 정리한 가이드입니다.
++
++## 1. 사용 중인 앱 파악 방법
++
++### 방법 A: `ps aux` 활용 (시스템 프로세스 중심)
++시스템 전체 프로세스 목록을 보여주며, 특정 경로(`/Applications`)를 필터링하여 실행 중인 앱을 찾을 수 있습니다.
++- **장점**: 실행 중인 모든 백그라운드 앱 확인 가능
++- **단점**: 현재 화면에 떠 있는 '활성화된 앱'이 무엇인지 바로 알기는 어려움
++
++### 방법 B: `AppleScript` 활용 (활성 창 중심) - **추천**
++현재 사용자가 실제로 보고 있는(Frontmost) 앱의 이름과 창 제목을 정확히 가져옵니다.
++
++**실행 명령어:**
++```bash
++osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++          -e 'tell application "System Events" to {displayed name, title} of frontApp'
++```
++
++## 2. 결과 해석 예시
++*   **출력**: `Visual Studio Code, app_tracking_guide.md`
++    *   **앱 이름**: Visual Studio Code
++    *   **창 제목**: app_tracking_guide.md (현재 편집 중인 파일명 등)
++
++## 3. 리소스 사용량 분석 (성능)
++명령어를 주기적으로(예: 5초마다) 실행할 때 시스템에 미치는 영향은 다음과 같습니다.
++
++| 리소스 | 사용량 및 영향 | 비고 |
++| :--- | :--- | :--- |
++| **RAM** | 약 10MB ~ 30MB | 실행 시에만 잠시 점유 후 즉시 해제됨 |
++| **CPU** | 0.1% 미만 | 시스템 전체 성능에 영향 없음 |
++| **안정성** | 매우 높음 | 메모리 누수 없이 안전하게 반복 실행 가능 |
++
++## 4. 실시간 모니터링 스크립트
++아래 코드를 터미널에 복사하여 붙여넣으면 5초 간격으로 현재 사용 중인 앱을 로그로 출력합니다.
++
++```bash
++while true; do
++  echo "--- $(date +%H:%M:%S) ---"
++  osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++            -e 'tell application "System Events" to {displayed name, title} of frontApp'
++  sleep 5
++done
++```
++
++## 5. 데이터 추출 및 저장 전략 (JSON / YAML)
++프로그래밍적으로 데이터를 처리하기 위해 **JSON** 또는 **YAML** 형식으로 저장하는 방법입니다.
++
++### 5.1. JSON 형식으로 저장하기
++매번 새로운 로그를 JSON 배열의 객체 형태로 파일에 추가합니다. (간단한 구현을 위해 각 줄에 JSON 객체를 하나씩 쓰는 'JSON Lines' 방식을 추천합니다.)
++
++```bash
++LOG_FILE="app_usage_log.json"
++
++while true; do
++  # AppleScript 결과 추출
++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++  
++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++
++  # JSON 객체 생성 및 파일 저장
++  printf '{"timestamp": "%s", "app": "%s", "title": "%s"}\n' \
++    "$(date '+%Y-%m-%d %H:%M:%S')" "$APP_NAME" "$WINDOW_TITLE" >> "$LOG_FILE"
++  
++  sleep 5
++done
++```
++
++### 5.2. YAML 형식으로 저장하기
++가독성이 중요한 경우 아래와 같이 리스트 형태로 저장할 수 있습니다.
++
++```bash
++LOG_FILE="app_usage_log.yaml"
++
++while true; do
++  APP_INFO=$(osascript -e 'tell application "System Events" to set frontApp to first process whose frontmost is true' \
++                       -e 'tell application "System Events" to {displayed name, title} of frontApp')
++  
++  APP_NAME=$(echo "$APP_INFO" | awk -F', ' '{print $1}')
++  WINDOW_TITLE=$(echo "$APP_INFO" | awk -F', ' '{$1=""; print $0}' | sed 's/^, //')
++
++  {
++    echo "- timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
++    echo "  app: \"$APP_NAME\""
++    echo "  title: \"$WINDOW_TITLE\""
++  } >> "$LOG_FILE"
++  
++  sleep 5
++done
++```
++
++## 6. 팀원 배포 시 주의사항 (비서명 앱 대응)
++
++Apple 개발자 유료 플랜을 사용하지 않고 배포할 경우, macOS의 **Gatekeeper**와 **TCC(보안 정책)**에 의해 앱이 차단될 수 있습니다. 이를 해결하기 위한 팀원용 가이드입니다.
++
++### 5.1. 앱 실행 차단 해제 (Gatekeeper)
++서명되지 않은 앱을 처음 실행하면 "확인되지 않은 개발자" 경고가 뜹니다.
++- **해결법:** 앱 아이콘에서 `우클릭(Control + 클릭)` -> `열기`를 선택하면 '열기' 버튼이 활성화됩니다. 이후에는 정상 실행됩니다.
++
++### 5.2. 스크립트 실행을 위한 권한 허용 (필수)
++macOS 보안 정책상, 스크립트가 다른 앱의 이름이나 창 제목을 읽어오려면 반드시 **'손쉬운 사용'** 권한이 필요합니다. 이 설정을 하지 않으면 스크립트 실행 시 오류가 발생하거나 빈 값이 출력됩니다.
++
++- **권한이 필요한 이유:** 스크립트가 현재 활성화된 앱의 상태를 관찰할 수 있도록 허용하기 위함입니다.
++- **설정 경로:** `시스템 설정` > `개인정보 보호 및 보안` > `손쉬운 사용(Accessibility)`
++- **허용 방법:** 목록에서 스크립트를 실행하는 도구(예: `터미널`, `iTerm2` 또는 제작한 앱)를 찾아 스위치를 **'켬'**으로 변경하세요.
++
++---
++*작성일: 2026. 3. 11.*
